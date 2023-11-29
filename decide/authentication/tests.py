@@ -29,7 +29,7 @@ class AuthTestCase(APITestCase):
         u2.set_password('admin')
         u2.is_superuser = True
         u2.save()
-#comentario
+#comentario23
     def tearDown(self):
         self.client = None
 
